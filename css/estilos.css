@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8bc5e2; 
+    text-align: center;
+}
+
+
+header {
+    background-color: #0a2f5c; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.header-logo img {
+    width: 80px;
+    height: auto;
+}
+
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    background-color: #0a2f5c;
+    color: white;
+    text-decoration: white;
+}
+.redes {
+    text-decoration: white;
+    color: white;
+}
+
+.sinVinieta{
+    list-style: none;
+}
