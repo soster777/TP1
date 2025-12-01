@@ -1,0 +1,50 @@
+
+
+.titulo {
+    color: #145aae; 
+        font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.subtitulo {
+    color: #145aae;  
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.baner img {
+   max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    filter: grayscale(10%);
+    transition: filter 0.5s;
+}
+
+
+.introduccion {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(186, 209, 255); 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.introduccion h2 {
+    color: #090231;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.introduccion p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+

@@ -1,0 +1,70 @@
+
+
+.sinVinieta {
+    list-style: none;
+
+
+}
+.mapa iframe {
+            width: 100%;
+            height: 200px;
+            border: 0;
+
+}
+.body2 {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.titulo {
+    color: #000004; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobre-la-pelicula p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.sobre-la-pelicula img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    filter: grayscale(10%);
+    transition: filter 0.5s;
+}
+
+.produccion {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.produccion h2 {
+    color: #03012f;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+.produccion ul {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.sinVinieta {
+    background: rgba(7, 0, 26, 0.15); 
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+}

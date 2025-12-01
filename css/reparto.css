@@ -1,0 +1,43 @@
+.sinVinieta {
+    list-style: none;
+}
+
+#reparto {
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.reparto-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.actor {
+    display: flex;
+    background-color: #b9c7e0; 
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(69, 5, 198, 0.2);
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.actor:hover {
+    transform: scale(1.05);
+    background-color: rgba(6, 82, 213, 0.4);
+}
+
+.actor img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    filter: grayscale(10%);
+    transition: fi
+}

@@ -1,0 +1,44 @@
+
+main {
+    padding: 20px;
+}
+
+
+.sinVinieta{
+    list-style: none;
+}
+form {
+    max-width: 750px;
+    margin: 20px auto;
+    background-color: #d8eef7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #0a2f5c;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #0a2f5c;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #08406f;
+}

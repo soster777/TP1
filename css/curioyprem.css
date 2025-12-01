@@ -1,0 +1,70 @@
+
+
+main {
+    padding: 20px;
+}
+
+.curiosidades {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.curiosidades h1 {
+    color: #03012f;
+    margin-bottom: 20px;
+}
+
+.curiosidades h2 {
+    color: #03012f;
+    margin-bottom: 10px;
+}
+
+.curiosidades p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.premios {
+    max-width: 900px;
+    margin: 40px auto;
+    line-height: 1.6;
+}
+
+.premios img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    filter: grayscale(10%);
+    transition: filter 0.5s;
+    
+}
+
+.premios h1 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.premios p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.premios ul {
+    padding-left: 0;
+}
+
+.premios li {
+    list-style-type: none;
+    background: rgba(14, 106, 219, 0.25);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: black;
+}
