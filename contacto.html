@@ -3,51 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="css/estilos.css">
     <title>Contacto</title>
+     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
- <header>
-     <div class="header-logo">
-     <img src="/fotos/pngfind.com-resplandor-png-6653110.png" alt="Logo de la pelicula" height="40px">
+
+
     </div>
-    <div class="header">
-     <nav class="navegacion">    
-             <a href="index.html" class="index">Home</a>
-     </div>
+
+    <header>
+         <div class="header-logo">
+     <img src="fotos/pngfind.com-resplandor-png-6653110.png" alt="Logo de la pelicula" height="40px">
+        </div>
+
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="sobrelapelicula.html">Sobre la película</a>
+            <a href="curioyprem.html">Curiosidades y premios</a>
+            <a href="reparto.html">Reparto</a>
+            <a href="prodyest.html">Producción y estética</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
     </header>
 
-    <main id="contacto">
-    <div class="container">
-        <h2>Contacto</h2>
-        <p>Si tienes comentarios o consultas sobre la película, puedes contactarnos a través de los siguientes medios:</p>
+    <main>
+
+        <h1>Contacto</h1>
+        <p>
+            Si tenés dudas, consultas o querés comunicarte con nosotros, completá este formulario.
+            Nos va a llegar directo y te vamos a responder lo antes posible.
+        </p>
+
+        <form>
+            <input type="text" placeholder="Nombre completo" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="tel" placeholder="Teléfono">
+
+            <select>
+                <option value="">Motivo de contacto</option>
+                <option value="consulta">Consulta general</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <textarea placeholder="Escribí tu mensaje..." required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+
         
-        <div class="info-contacto">
-            <p><strong>Email:</strong> contacto@peliculaejemplo.com</p>
-            <p><strong>Teléfono:</strong> +54 11 1234-5678</p>
-        </div>
+    </main>
 
-        <div class="redes-sociales">
-            <h3>Síguenos en nuestras redes</h3>
-            <ul>
-                <li class="sinVinieta"><a href="https://www.facebook.com/peliculaejemplo" target="_blank">Facebook</a></li>
-                <liclass="sinVinieta"><a href="https://www.instagram.com/peliculaejemplo" target="_blank">Instagram</a></liclass=>
-                <liclass="sinVinieta"><a href="https://twitter.com/peliculaejemplo" target="_blank">Twitter</a></liclass=>
-            </ul>
-        </div>
-
-        <div class="formulario-placeholder">
-            <p>Formulario</p>
-        </div>
-    </div>
-</main>
-<footer>
+    <footer>
     <div class="redes">
   <a href="#">Instagram</a> |
   <a href="#">Twitter</a> |
   <a href="#">Facebook</a>
+    </footer>
 
-</div>
-</footer>
-</body> 
+</body>
 </html>
