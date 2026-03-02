@@ -1,27 +1,25 @@
 
-
 main {
-    padding: 2% 4%;
+    padding: 3%;
 }
 
 .curiosidades {
     width: 90%;
     max-width: 900px;
-     margin: 0 auto;
-    line-height: 1.6;
+    margin: 0 auto;
+        line-height: 1.6;
     text-align: center;
 }
-
 .curiosidades h1 {
     color: #03012f;
-    font-size: 7vw; 
-    max-font-size: 40px; 
+    font-size: clamp(1.75rem, 6vw, 2.5rem); 
     margin-bottom: 3%;
 }
 
 .curiosidades h2 {
     color: #03012f;
-      font-size: 5vw;
+
+    font-size: clamp(1.5rem, 4.5vw, 2rem);
     margin-bottom: 2%;
 }
 
@@ -34,30 +32,29 @@ main {
 .premios {
     width: 90%;
     max-width: 900px;
-     margin: 5% auto;
+    margin: 5% auto;
     line-height: 1.6;
 }
-
 .premios img {
     width: 100%;
     height: auto;
-    border-radius: 2vw; 
+     border-radius: 1.5%;
     margin-bottom: 4%;
-        box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.4); 
-     filter: grayscale(10%);
-      transition: filter 0.5s;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); 
+    filter: grayscale(10%);
+    transition: filter 0.5s;
 }
 
 .premios h1 {
     color: black;
-    font-size: 7vw;
+    font-size: clamp(1.75rem, 6vw, 2.5rem);
     margin-bottom: 3%;
 }
 
 .premios p {
-        color: black;
+    color: black;
     font-size: 1.1rem;
-    margin-bottom: 3%;
+     margin-bottom: 3%;
 }
 
 .premios ul {
@@ -68,8 +65,9 @@ main {
     list-style-type: none;
     background: rgba(14, 106, 219, 0.25);
     margin: 1.5% 0;
-    padding: 3%; 
-    border-radius: 1.5vw;
-     font-size: 1rem;
-    color: black;
+    padding: 2.5%; 
+    border-radius: 8px; 
+    font-size: 1rem;
+     color: black;
 }
+
