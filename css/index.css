@@ -1,20 +1,21 @@
 
-
 .titulo {
     color: #145aae; 
-        font-size: 3.5em;
+    font-size: clamp(2.5em, 8vw, 3.5em);
     margin-bottom: 15px;
+    text-align: center; 
 }
 
 .subtitulo {
     color: #145aae;  
     font-style: italic;
     padding-top: 15px;
+    text-align: center;
 }
 
 .baner img {
-   max-width: 100%;
-    height: auto;
+    max-width: 95%; 
+    height: auto; 
     border-radius: 10px;
     margin: 30px auto;
     display: block;
@@ -23,11 +24,11 @@
     transition: filter 0.5s;
 }
 
-
 .introduccion {
-    max-width: 900px;
+    width: 90%; 
+    max-width: 900px; 
     margin: 40px auto;
-    padding: 30px;
+    padding: clamp(15px, 5%, 30px);
     background-color: rgb(186, 209, 255); 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -36,7 +37,7 @@
 
 .introduccion h2 {
     color: #090231;
-    font-size: 2em;
+    font-size: clamp(1.5em, 5vw, 2em);
     margin-top: 0;
     margin-bottom: 20px;
 }
