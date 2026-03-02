@@ -1,43 +1,49 @@
-
 .error-main {
-    padding: 60px 20px;
+    padding: clamp(40px, 8%, 80px) 5%;
+    text-align: center;
 }
 
 .titulo-error {
-    font-size: 60px;
+   font-size: clamp(40px, 10vw, 80px);
     color: rgb(0, 0, 0);
-    margin-bottom: 10px;
+    margin-bottom: 1.5%;
 }
 
 .subtitulo-error {
-    font-size: 30px;
+    font-size: clamp(24px, 5vw, 40px);
     color: #000508;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 
 .mensaje-error p {
-    font-size: 18px;
+    font-size: clamp(16px, 2vw, 20px);
     color: rgb(0, 0, 0);
-    margin-bottom: 10px;
+    margin-bottom: 2%;
+    padding: 0 10%;
 }
 
 .mensaje-error img {
     display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    max-width: 350px;
+    margin: 4% auto;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    height: auto; 
 }
 
 .boton-volver {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 15px 30px; 
     background-color: #1e6aa8; 
     color: white;
     text-decoration: none;
     border-radius: 8px;
+    font-size: 18px;
     transition: 0.3s;
+    margin-top: 20px;
 }
 
 .boton-volver:hover {
     background-color: #144a75;
+    transform: scale(1.05); 
 }
