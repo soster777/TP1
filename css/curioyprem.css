@@ -1,58 +1,63 @@
 
 
 main {
-    padding: 20px;
+    padding: 2% 4%;
 }
 
 .curiosidades {
+    width: 90%;
     max-width: 900px;
-    margin: 0 auto;
+     margin: 0 auto;
     line-height: 1.6;
     text-align: center;
 }
 
 .curiosidades h1 {
     color: #03012f;
-    margin-bottom: 20px;
+    font-size: 7vw; 
+    max-font-size: 40px; 
+    margin-bottom: 3%;
 }
 
 .curiosidades h2 {
     color: #03012f;
-    margin-bottom: 10px;
+      font-size: 5vw;
+    margin-bottom: 2%;
 }
 
 .curiosidades p {
     color: black;
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.1rem; 
+    margin-bottom: 2%;
 }
 
 .premios {
+    width: 90%;
     max-width: 900px;
-    margin: 40px auto;
+     margin: 5% auto;
     line-height: 1.6;
 }
 
 .premios img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
-    filter: grayscale(10%);
-    transition: filter 0.5s;
-    
+    width: 100%;
+    height: auto;
+    border-radius: 2vw; 
+    margin-bottom: 4%;
+        box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.4); 
+     filter: grayscale(10%);
+      transition: filter 0.5s;
 }
 
 .premios h1 {
     color: black;
-    margin-bottom: 15px;
+    font-size: 7vw;
+    margin-bottom: 3%;
 }
 
 .premios p {
-    color: black;
-    font-size: 18px;
-    margin-bottom: 20px;
+        color: black;
+    font-size: 1.1rem;
+    margin-bottom: 3%;
 }
 
 .premios ul {
@@ -62,9 +67,9 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 .premios li {
     list-style-type: none;
     background: rgba(14, 106, 219, 0.25);
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 6px;
-    font-size: 18px;
+    margin: 1.5% 0;
+    padding: 3%; 
+    border-radius: 1.5vw;
+     font-size: 1rem;
     color: black;
 }
